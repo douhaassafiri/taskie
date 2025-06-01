@@ -1,0 +1,87 @@
+QWidget {
+    background-color: #fef8f5;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+
+QLineEdit {
+    padding: 10px;
+    border: 2px solid #e5bfc5;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+QPushButton {
+    background-color: #e5bfc5;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #d8aab2;
+}
+
+QListWidget {
+    background-color: #f8e8ee;
+    border: 2px solid #e8cfd7;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 8px;
+}
+
+QListWidget::item:selected {
+    background-color: #eacbd4;
+    color: black;
+}
+
+QComboBox {
+    padding: 8px;
+    margin: 0px;
+    border: 2px solid #e5bfc5;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #fef8f5;
+    selection-background-color: #eacbd4;
+    border: 1px solid #e5bfc5;
+}
+
+QLabel {
+    font-weight: normal;
+    font-size: 13px;
+    color: #5c4a4e;
+}
+
+QLabel#FieldLabel {
+    font-weight: bold;
+    font-size: 13px;
+    color: #a14f63;
+    padding: 0px;
+    margin: -2px 0 2px 2px;
+}
+
+QTabBar::tab {
+    background: #f8e8ee;
+    padding: 8px 16px;
+    border: 1px solid #e8cfd7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background: #eacbd4;
+    font-weight: bold;
+    color: #803444;
+}

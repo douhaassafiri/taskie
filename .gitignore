@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Env
+env/
+venv/
+ENV/
+
+# System
+.DS_Store
+Thumbs.db
+
+# VS Code or JetBrains configs
+.vscode/
+.idea/
+
+# Tasks data
+tasks.txt
