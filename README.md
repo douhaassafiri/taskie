@@ -29,7 +29,7 @@ It’s made to be minimal, calm, and fun to use!
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/taskie.git
+git clone https://github.com/douhaassafiri/taskie.git
 cd taskie
 ```
 
